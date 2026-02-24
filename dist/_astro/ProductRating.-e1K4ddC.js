@@ -1,0 +1,1 @@
+import{j as a,P as o}from"./AppBootstrap.spCtlSQU.js";import{b as e}from"./index.BryFTIOB.js";const p=({ratingValue:s})=>{let t=[];for(let r=0;r<5;r++)t.push(a.jsx("i",{className:"fa fa-star-o"},r));if(s&&s>0)for(let r=0;r<=s-1;r++)t[r]=a.jsx("i",{className:"fa fa-star-o yellow"},r);return a.jsx(e.Fragment,{children:t})};p.propTypes={ratingValue:o.number};export{p as P};

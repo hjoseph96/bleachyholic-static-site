@@ -1,0 +1,1 @@
+import{j as s,L as i,P as r}from"./AppBootstrap.spCtlSQU.js";const a=({data:e})=>s.jsx("div",{className:"single-image",children:s.jsx(i,{to:""+e.link,children:s.jsx("img",{src:""+e.image,alt:""})})});a.propTypes={data:r.shape({})};export{a as I};

@@ -1,5 +1,5 @@
-import { useEffect } from 'react';
 import { Provider } from 'react-redux';
+import { Toaster } from 'react-hot-toast';
 import PersistProvider from './store/providers/persist-provider';
 import { store } from './store/store';
 import { setProducts } from './store/slices/product-slice';
@@ -14,6 +14,7 @@ const AppBootstrap = () => {
     <Provider store={store}>
       <PersistProvider>
         <App />
+        <Toaster position="bottom-left" />
       </PersistProvider>
     </Provider>
   );

@@ -1,1 +1,0 @@
-import{j as s,L as t,P as r}from"./AppBootstrap.FT2RaV60.js";import{c as a}from"./MobileMenu.Bt5n26JS.js";const e=({imageUrl:o,logoClass:i})=>s.jsx("div",{className:a(i),children:s.jsx(t,{to:"/",children:s.jsx("img",{alt:"",src:""+o})})});e.propTypes={imageUrl:r.string,logoClass:r.string};export{e as L};

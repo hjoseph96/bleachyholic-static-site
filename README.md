@@ -6,7 +6,7 @@ Astro + React eCommerce project. Migrated from Create React App (Flone template)
 
 ```bash
 # Install dependencies
-npm install --legacy-peer-deps
+npm install
 
 # Start development server
 npm run dev
