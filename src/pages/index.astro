@@ -1,0 +1,28 @@
+---
+import AppBootstrap from '../react-app/AppBootstrap.jsx';
+import 'animate.css';
+import 'swiper/swiper-bundle.min.css';
+import 'yet-another-react-lightbox/styles.css';
+import 'yet-another-react-lightbox/plugins/thumbnails.css';
+import '../react-app/assets/scss/style.scss';
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Bleachyholic - Minimal & Creative eCommerce" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Bleachyholic - eCommerce</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <AppBootstrap client:only="react" />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+import{j as t,P as s}from"./AppBootstrap.FT2RaV60.js";import{c as e}from"./MobileMenu.Bt5n26JS.js";const n=({titleText:i,positionClass:r,spaceClass:o,colorClass:a})=>t.jsx("div",{className:e("section-title-5",r,o),children:t.jsx("h2",{className:e(a),children:i})});n.propTypes={positionClass:s.string,spaceClass:s.string,titleText:s.string};export{n as S};
