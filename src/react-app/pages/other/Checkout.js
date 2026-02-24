@@ -16,8 +16,8 @@ const Checkout = () => {
   return (
     <Fragment>
       <SEO
-        titleTemplate="Checkout"
-        description="Checkout page of flone react minimalist eCommerce template."
+        titleTemplate="BleachyHolic | Checkout"
+        description="Artisanal bleached anime apparel store. Shop for high-quality bleached anime apparel and accessories."
       />
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}

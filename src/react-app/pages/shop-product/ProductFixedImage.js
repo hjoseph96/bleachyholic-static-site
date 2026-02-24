@@ -18,8 +18,8 @@ const ProductFixedImage = () => {
   return (
     <Fragment>
       <SEO
-        titleTemplate="Product Page"
-        description="Product page of flone react minimalist eCommerce template."
+        titleTemplate="BleachyHolic | Anime Apparel"
+        description="Artisanal bleached anime apparel store. Shop for high-quality bleached anime apparel and accessories."
       />
 
       <LayoutOne headerTop="visible">

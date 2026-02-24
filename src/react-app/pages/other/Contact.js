@@ -11,8 +11,8 @@ const Contact = () => {
   return (
     <Fragment>
       <SEO
-        titleTemplate="Contact"
-        description="Contact page of flone react minimalist eCommerce template."
+        titleTemplate="BleachyHolic | Contact"
+        description="Artisanal bleached anime apparel store. Shop for high-quality bleached anime apparel and accessories."
       />
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}

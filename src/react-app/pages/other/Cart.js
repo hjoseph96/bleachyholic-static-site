@@ -21,8 +21,8 @@ const Cart = () => {
   return (
     <Fragment>
       <SEO
-        titleTemplate="Cart"
-        description="Cart page of flone react minimalist eCommerce template."
+        titleTemplate="BleachyHolic | Cart"
+        description="Artisanal bleached anime apparel store. Shop for high-quality bleached anime apparel and accessories."
       />
 
       <LayoutOne headerTop="visible">

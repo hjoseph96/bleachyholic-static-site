@@ -12,8 +12,8 @@ const HomeFashionSeven = () => {
   return (
     <Fragment>
       <SEO
-        titleTemplate="Fashion Home"
-        description="Fashion home of flone react minimalist eCommerce template."
+        titleTemplate="BleachyHolic | Anime Apparel"
+        description="Artisanal bleached anime apparel store. Shop for high-quality bleached anime apparel and accessories."
       />
       <LayoutOne
         headerContainerClass="container-fluid"

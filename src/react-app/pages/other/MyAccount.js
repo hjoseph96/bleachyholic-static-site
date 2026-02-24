@@ -11,8 +11,8 @@ const MyAccount = () => {
   return (
     <Fragment>
       <SEO
-        titleTemplate="My Account"
-        description="My Account page of flone react minimalist eCommerce template."
+        titleTemplate="BleachyHolic | My Account"
+        description="Artisanal bleached anime apparel store. Shop for high-quality bleached anime apparel and accessories."
       />
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}

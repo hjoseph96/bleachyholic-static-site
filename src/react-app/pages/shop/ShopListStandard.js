@@ -54,8 +54,8 @@ const ShopListStandard = () => {
   return (
     <Fragment>
       <SEO
-        titleTemplate="Shop Page"
-        description="Shop page of flone react minimalist eCommerce template."
+        titleTemplate="BleachyHolic | Shop"
+        description="Artisanal bleached anime apparel store. Shop for high-quality bleached anime apparel and accessories."
       />
 
       <LayoutOne headerTop="visible">

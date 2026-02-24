@@ -12,8 +12,8 @@ const LoginRegister = () => {
   return (
     <Fragment>
       <SEO
-        titleTemplate="Login"
-        description="Login page of flone react minimalist eCommerce template."
+        titleTemplate="BleachyHolic | Login"
+        description="Artisanal bleached anime apparel store. Shop for high-quality bleached anime apparel and accessories."
       />
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
