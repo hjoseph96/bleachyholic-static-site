@@ -1909,9 +1909,40 @@ a.default-btn {
 }
 
 .fullpage-slider-wrapper {
-  .Navigation {
-    .Navigation-Anchor {
-      background-color: #333 !important;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+
+  .fullpage-header-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+
+  .fullpage-swiper {
+    height: 100vh;
+    padding-top: 80px; // space for fixed header
+
+    .swiper-slide {
+      height: auto;
+      display: flex;
+      align-items: center;
+    }
+
+    .swiper-pagination {
+      right: 30px;
+      left: auto;
+
+      .swiper-pagination-bullet {
+        background-color: #333;
+        opacity: 0.4;
+
+        &.swiper-pagination-bullet-active {
+          opacity: 1;
+        }
+      }
     }
   }
 }

@@ -1,7 +1,7 @@
 import React, { forwardRef } from "react";
 import PropTypes from "prop-types"
 import cn from "clsx";
-import { Navigation, Pagination, Autoplay, A11y } from "swiper";
+import { Navigation, Pagination, Autoplay, A11y } from "swiper/modules";
 // eslint-disable-next-line import/no-unresolved
 import { Swiper, SwiperSlide } from "swiper/react";
 

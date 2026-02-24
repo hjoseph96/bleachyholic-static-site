@@ -1,0 +1,1 @@
+import{j as s,L as t,P as r}from"./AppBootstrap.DRHwR6aM.js";import{c as a}from"./MobileMenu.DWqq6DyI.js";const e=({imageUrl:o,logoClass:i})=>s.jsx("div",{className:a(i),children:s.jsx(t,{to:"/",children:s.jsx("img",{alt:"",src:""+o})})});e.propTypes={imageUrl:r.string,logoClass:r.string};export{e as L};

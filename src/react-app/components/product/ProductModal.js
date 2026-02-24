@@ -1,6 +1,6 @@
 import { Fragment, useState } from "react";
 import PropTypes from "prop-types";
-import { EffectFade, Thumbs } from 'swiper';
+import { EffectFade, Thumbs } from 'swiper/modules';
 import { Modal } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import Rating from "./sub-components/ProductRating";

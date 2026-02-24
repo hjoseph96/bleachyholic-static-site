@@ -7,7 +7,7 @@ import PersistProvider from "./store/providers/persist-provider";
 import { setProducts } from "./store/slices/product-slice"
 import products from "./data/products.json";
 import 'animate.css';
-import 'swiper/swiper-bundle.min.css';
+import 'swiper/swiper-bundle.css';
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import "./assets/scss/style.scss";
